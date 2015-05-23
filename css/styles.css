@@ -1,0 +1,135 @@
+/*
+http://www.colourlovers.com/palette/1428930/tools_for_the_job
+*/
+
+a,p,span,li,td {
+	font: 14px Arial, sans-serif;
+	line-height: 21px;
+}
+#body {
+	width: 90%;
+	margin: 150px auto 0px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Oswald', sans-serif;
+}
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 35px;
+	background: #97041E;
+	z-index: 10002;
+}
+header h1 {
+	font-size: 56px;
+	line-height: 56px;
+	color: white;
+	margin: 0px;
+}
+#menu {
+	box-sizing: border-box;
+	background: #C88103;
+	box-shadow: inset 0px 0px 1px rgba(0,0,0,0.5);
+	padding: 7px 14px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#menu h1,
+#menu h2,
+#menu h3,
+#menu h4,
+#menu h5,
+#menu h6 {
+	color: white;
+}
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li {
+	display: block;
+	box-sizing: border-box;
+	padding: 7px;
+	border-bottom: solid thin rgba(255,255,255,0.3);
+	transition: 600ms;
+	-moz-transition: 600ms;
+	-webkit-transition: 600ms;
+}
+#menu ul li a {}
+#menu ul li a span {
+	display: inline-block;
+	vertical-align: middle;
+}
+#menu ul li a span.image {
+	width: 21px;
+}
+#menu ul li a span.image img {}
+#menu ul li a span.name {
+	font: 18px Arial, sans-serif;
+	line-height: 27px;
+	color: white;
+	margin: 0px 0px 0px 7px;
+}
+#menu ul li:hover {
+	margin: 0px 0px 0px 21px;
+}
+.row {
+	max-width: none;
+}
+#section_banner {
+	margin: 0px 0px 21px 0px;
+	position: relative;
+}
+#section_banner img {
+	box-sizing: border-box;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+#section_banner h2 {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 7px 14px;
+	background: rgba(151,4,30,0.8);
+	color: white;
+	width: 100%;
+}
+#section_details {}
+#section_details table {
+	width: 100%;
+	border-collapse: collapse;
+}
+#section_details table tbody {}
+#section_details table tbody tr {}
+#section_details table tbody tr td {
+	padding: 7px;
+}
+#section_details table tbody tr td:first-child {
+	width: 20%;
+	font-weight: bold;
+}
+#section_details table tbody tr td a {}
+#section_steps {}
+#section_steps h2 {
+	font-size: 35px;
+	color: #C88103;
+	padding: 0px 0px 2px 0px;
+	border-bottom: solid thin #97041E;
+	margin: 0px 0px 21px 0px;
+}
+#section_steps .section_step {}
+#section_steps .section_subhead {
+	font: bold 24px 'Oswald', sans-serif;
+	margin: 0px 0px 21px 0px;
+	padding: 0px 0px 4px 0px;
+	border-bottom: dotted thin;
+}
+#section_steps .section_step h3 {
+	font-size: 21px;
+	color: #97041E;
+}
+#section_steps .section_step ul {}
+#section_steps .section_step ul li {}

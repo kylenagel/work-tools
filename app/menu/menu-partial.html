@@ -1,0 +1,13 @@
+<div id="menu" ng-controller="dtController-Menu">
+	<h3>CHOOSE A TOOL</h3>
+	<ul>
+		<li ng-repeat="t in tools">
+			<a ng-href="{{t.url}}">
+				<span class="image">
+					<img ng-src="{{t.icon}}" alt="{{t.name}}" width="100%">
+				</span>
+				<span class="name">{{t.name}}</span>
+			</a>
+		</li>
+	</ul>
+</div>

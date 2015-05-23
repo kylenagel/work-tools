@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="dtApp">
+<head>
+
+<meta charset="UTF-8">
+<title>CMGO Digital Content Tools</title>
+
+<base href="/github/work-tools/">
+
+<link rel="stylesheet" href="common/plugins/foundation/css/foundation.min.css">
+<link rel="stylesheet" href="common/plugins/foundation/css/normalize.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/fonts.css">
+
+<script src="common/js/jquery-1.11.3.min.js"></script>
+<script src="common/plugins/angular/angular.min.js"></script>
+<script src="common/plugins/angular/angular-route.min.js"></script>
+<script src="common/plugins/foundation/js/foundation.min.js"></script>
+
+</head>
+<body>
+
+	<div class="row">
+
+		<div class="row">
+			<div class="small-12 columns">
+				<header>
+					<h1>DIGITAL CONTENT TOOLS</h1>
+				</header>
+			</div>
+		</div>
+
+		<!-- MAIN BODY -->
+		<div id="body" class="row">
+			<!-- MENU -->
+			<div class="small-4 columns">
+				<div ng-include src="'app/menu/menu-partial.html'"></div>
+			</div>
+			<!-- CONTENT -->
+			<div class="small-8 columns">
+				<div id="main" class="row" ng-view></div>
+			</div>
+		</div>
+
+	</div>
+
+<script src="js/main.js"></script>
+<script src="app/home/home-controller.js"></script>
+<script src="app/menu/menu-controller.js"></script>
+<script src="app/chartbuilder/chartbuilder-controller.js"></script>
+<script src="app/fusiontables/fusiontables-controller.js"></script>
+<script src="app/mapsengine/mapsengine-controller.js"></script>
+<script src="app/thinglink/thinglink-controller.js"></script>
+<script src="app/timelinejs/timelinejs-controller.js"></script>
+
+</body>
+</html>

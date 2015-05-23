@@ -1,0 +1,158 @@
+<div id="section_banner">
+	<img src="img/partial_banners/fusiontables.jpg" width="100%" alt="Google Fusion Tables" title="Google Fusion Tables">
+	<h2>Google Fusion Tables</h2>
+</div>
+
+<div id="section_details">
+	<table>
+		<tbody>
+			<tr class="body">
+				<td>Link:</td>
+				<td><a href="https://support.google.com/fusiontables/answer/2571232">Google Fusion Tables</a></td>
+			</tr>
+			<tr class="body">
+				<td>What it does:</td>
+				<td>Google built Fusion Tables as a tool to upload, manage and visualize data. It's best use is for mapping multiple (like, thousands) of addresses or creating maps of polygons (like states or counties) with a built-in information window for clicking.</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div id="section_steps">
+
+	<h2>How to make one</h2>
+	
+	<div class="section_step">
+		<h3>1. Before starting, confirm or set up a Google account</h3>
+		<ul>
+			<li>This is important because, not only are Google accounts very useful for creating and storing all kinds of Google products and information, but also because Google Fusion Tables files are automatically saved to your drive.</li>
+			<li>Go to <a href="https://drive.google.com/">drive.google.com</a>.</li>
+			<li>If you already have a Google account (a gmail address), sign in. If not, create one. It's free and easy. Just follow the instructions.</li>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>2. Organize your data</h3>
+		<ul>
+			<li>It's easiest to work with your data in an Excel file before importing that file into Fusion Tables.</li>
+			<li>If you're making a map with markers, make sure one column includes the full addresses for locations where you want the markers to appear. Later, you'll be able to tell Fusion Tables which column contains the location information.</li>
+			<li>If you're making a map of polygons, make sure one of your columns includes information that later be used to merge yourr table with the boundaries information table. For instance, if the boundaries information table labels counties like "OH-Montgomery" and "OH-Warren," use the same naming convention in your column.</li>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>3. Import data to Fusion Tables</h3>
+		<ul>
+			<li>Open your drive, <a href="https://drive.google.com/">drive.google.com</a>.</li>
+			<li>Click the red "CREATE" button on the left and then "Fusion Table."</li>
+			<li>Choose the Excel file you want to upload, then click "Next."</li>
+			<li>If your data looks correct in the second window, click "Next." If not, go back to your Excel file and fix any problems before going through the importing process again.</li>
+			<li>A third window allows you to enter information about your table, including a name (otherwise inherited from the Excel file), information about the data and a description.</li>
+			<li>Click "Finish" to import</li>
+		</ul>
+	</div>
+
+	<div class="section_subhead">If making a map of markers ...</div>
+
+	<div class="section_step">
+		<h3>4. Identify your column for locations</h3>
+		<ul>
+			<li>Hover over the column that holds your locations.</li>
+			<li>Click the down arrow next to the column name, then Change.</li>
+			<li>For Type, mark as Location, then click Save changes.</li>
+			<li>The text in the location column should now be colored yellow.</li>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>5. Make the map</h3>
+		<ul>
+			<li>Click the box with the red background and white + sign in the line of tabs and then Add Map.</li>
+			<li>Fusion Tables will geocode the column of addresses you've marker as locations. It will turn those addresses into latitude and longitude pairs, then place them on the map.</li>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>6. Adjust the markers</h3>
+		<ul>
+			<li>Tools > Change Map</li>
+			<li>In the left column, click "Change feature styles ..."</li>
+			<li>For markers, you have 10 choices by default: Red, yellow, green, blue and purple in dots and pins.</li>
+			<li>In more advanced cases, when you want to show different markers for different sets of values:</li>
+			<ul>
+				<li>Inside the Change map feature styles box, click the Buckets tab.</li>
+				<li>Choose how many "buckets" - categories of markers - you'd like to have with the dropdown menu between "Divide into" and "buckets."</li>
+				<li>Choose the column whose values will serve as the values to determine which markers will display.</li>
+				<li>Pick the values whose rows will display as which markers. The values you type into the boxes are the lower ends of the range.</li>
+				<li>Pick the markers to display for those values in the dropdown menus next to the values.</li>
+			</ul>
+		</ul>
+	</div>
+
+	<div class="section_subhead">If making a map of polygons ...</div>
+
+	<div class="section_step">
+		<h3>4. Merge your table with a table containing boundary information</h3>
+		<ul>
+			<li>Find the Fusion Table containing the boundary information for the areas you want to display. Some common boundary files, including states, counties and congressional districts, <a href="https://support.google.com/fusiontables/answer/1182141?hl=en">can be found here</a>.</li>
+			<li>In your imported Fusion Table with your new data, go to File > Merge.</li>
+			<li>Paste the url of the boundary information Fusion Table into the box at the bottom, under "Or paste a web address here:" and click Next</li>
+			<li>From the dropdown menus, choose the columns from the tables that match.</li>
+			<li>Fusion Tables will make a new table combining the two. Your data for the desired areas will now have boundary information in the same row.</li>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>5. Make the map</h3>
+		<ul>
+			<li>Click the box with the red background and white + sign in the line of tabs and then Add Map.</li>
+			<li>Fusion Tables will read the boundary information in each row and create those polygons on the map.</li>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>6. Adjust the polygons</h3>
+		<ul>
+			<li>Tools > Change Map</li>
+			<li>In the left column, click "Change feature styles ..."</li>
+			<li>There are three things you can change about polygons: Fill color, Border color and Border width.</li>
+			<li>For color, you can choose from the available squares or enter a hex code, a six-digit alphanumeric color code that follows a # sign. An easy way to play with hex codes is with <a href="http://www.colorpicker.com/">the site ColorPicker</a>. Find the color you like, the paste the six digits after the # sign.</li>
+			<li>In more advanced cases, when you want to show different colors or borders for the polygons for different sets of values:</li>
+			<ul>
+				<li>Inside the Change map feature styles box, click the Buckets tab.</li>
+				<li>Choose how many "buckets" - or categories - you'd like to have with the dropdown menu between "Divide into" and "buckets."</li>
+				<li>Choose the column whose values will serve as the values to determine which colors or features will display.</li>
+				<li>Pick the values whose rows will display as which colors or features. The values you type into the boxes are the lower ends of the range for thhat category.</li>
+				<li>Pick the colors or values to display for those values in the dropdown menus next to the values.</li>
+			</ul>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>7. Adjust the information window</h3>
+		<ul>
+			<li>Click "Change info window..." in the left column.</li>
+			<li>On the left, click the boxes of the columns whose information you want to display in the information window when a user clicks on a marker or polygon.</li>
+			<li>By default, the values will show as the bolded column name and then the value for the same row as the marker or polygon the user clicked.</li>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>8. Publish the map to make it available to embed</h3>
+		<ul>
+			<li>Tools > Publish</li>
+			<li>At the top of the box, click "Change visibility"</li>
+			<li>On the line now listed as Private, click Change and choose "Public on the web."</li>
+			<li>Click save</li>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>9. Get the embed code</h3>
+		<ul>
+			<li>Tools > Publish</li>
+			<li>The code in the box underneath "Paste HTML to embed in a website" is what you'll need to embed on a website.</li>
+		</ul>
+	</div>
+
+</div>
