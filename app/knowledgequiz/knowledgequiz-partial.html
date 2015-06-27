@@ -1,0 +1,117 @@
+<div id="section_banner">
+	<img src="img/partial_banners/knowledgequiz.jpg" width="100%" alt="CMGO Knowledge Quiz" title="CMGO Knowledge Quiz">
+	<h2>CMGO Games: Knowledge Quiz</h2>
+</div>
+
+<div id="section_details">
+	<table>
+		<tbody>
+			<tr class="body">
+				<td>Link:</td>
+				<td><a href="http://projects.dayton.com/generators/games/">CMGO Games</a></td>
+			</tr>
+			<tr class="body">
+				<td>What it does:</td>
+				<td>User sees a series of questions with multiple choice options. When clicking on an option, the user immediately sees whether it was right or wrong and gets an explanation.</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div id="section_steps">
+
+	<h2>How to make one</h2>
+	
+	<div class="section_step">
+		<h3>1. Before starting, confirm or set up a Google account</h3>
+		<ul>
+			<li>This is important because, not only are Google accounts very useful for creating and storing all kinds of Google products and information, but also because a Google Spreadsheet is needed to create the timeline.</li>
+			<li>Go to <a href="https://drive.google.com/">drive.google.com</a>.</li>
+			<li>If you already have a Google account (a gmail address), sign in. If not, create one. It's free and easy. Just follow the instructions.</li>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>2. Create a blank Google Spreadsheet</h3>
+		<ul>
+			<li>Open your drive, <a href="https://drive.google.com/">drive.google.com</a>.</li>
+			<li>Click the red "CREATE" button on the left and then "Spreadsheet."</li>
+			<li>Rename the spreadsheet to something that will be easy to find later. File > Rename.</li>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>3. Create two tabs in your spreadsheet</h3>
+		<ul>
+			<li>At the bottom of the spreadsheet, click the "+" sign to the left of the tab titled "Sheet1" to create a second tab</li>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>4. Set up the column names in each tab</h3>
+		<ul>
+			<li><strong>First tab</strong> (questions and options)</li>
+			<ol>
+				<li>Question</li>
+				<li>Answer</li>
+				<li>A column for each option, named "Option1," "Option2" and so on.</li>
+				<li>Explanation</li>
+				<li>Photo</li>
+				<li>Caption</li>
+			</ol>
+			<li><strong>Second tab</strong> (results)</li>
+			<ol>
+				<li>Correct_Answers_Min</li>
+				<li>Correct_Answers_Max</li>
+				<li>Message</li>
+				<li>Image</li>
+				<li>Caption</li>
+			</ol>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>5. Enter your content in each tab</h3>
+		<ul>
+			<li><strong>First tab</strong></li>
+			<ol>
+				<li>Question: the text of the question</li>
+				<li>
+					Option columns: the options the user sees
+					<br>
+					<strong>Text or image: </strong> You can input either text or image URLs for the options. If it's an image URL, the user will see an image for the option (URL must end in .JPG, .jpg or .png) and you must include the text of the option inside curly brackets after the URL. If it's text, the user will see the text.
+					<br>
+					<strong>Example (image option): </strong>"http://media.cmgdigital.com/shared/img/photos/2015/04/01/39/7d/040515lifenobodiesdeyo.jpg {Orville Wright}" in a cell will show the user the image from that URL as an option for that question. If the user chooses that image, it will register as choosing the option "Orville Wright" (<strong>Note: </strong> As a best practice, don't include an image in the questions "Photo" cell if there are images for options.)
+					<br>
+					<strong>Important: </strong> At least one option must <strong>exactly match</strong> the result text for that question
+				</li>
+				<li>Explanation: content the user will see after answering the question and being alerted whether the answer is correct or incorrect.</li>
+				<li>Photo: a photo that can shows about the options (<strong>Note:</strong> Horizontal or square photos will look best.)</li>
+				<li>Caption: a caption for the photo</li>
+			</ol>
+			<li><strong>Second tab</strong></li>
+			<ol>
+				<li>Result_Answers_Min: Minimum number of correct answers for the user to see this message (<strong>Note:</strong> Be sure the first row in this tab has "0" for the minimum.)</li>
+				<li>Result_Answers_Max: Maximum number of correct answers for the user to see this message (<strong>Note: </strong> As a best practice, make the final row max "100" in case the number of questions changes)</li>
+				<li>Message: Content to display is the number of correct answers falls within the range signified in the first two columns</li>
+				<li>Image: Image to display below the result message</li>
+				<li>Caption: Caption for the image</li>
+			</ol>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>6. Publish your spreadsheet</h3>
+		<ul>
+			<li>File > Publish to the Web > Publish (yes, when asked, you're sure you want to publish)</li>
+		</ul>
+	</div>
+
+	<div class="section_step">
+		<h3>7. Communicate the Google Spreadsheet URL to the digital team</h3>
+		<ul>
+			<li>The digital team can then create the quiz on a page on our websites</li>
+		</ul>
+	</div>
+
+</div>

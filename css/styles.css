@@ -7,8 +7,8 @@ a,p,span,li,td {
 	line-height: 21px;
 }
 #body {
-	width: 90%;
-	margin: 150px auto 0px;
+	width: 100%;
+	margin: 120px 0px 0px 0px;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Oswald', sans-serif;
@@ -18,7 +18,7 @@ header {
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	padding: 35px;
+	padding: 21px 35px;
 	background: #97041E;
 	z-index: 10002;
 }
@@ -30,7 +30,7 @@ header h1 {
 }
 #menu {
 	box-sizing: border-box;
-	background: #C88103;
+	background: #352D22;
 	box-shadow: inset 0px 0px 1px rgba(0,0,0,0.5);
 	padding: 7px 14px;
 	border-radius: 5px;

@@ -7,23 +7,35 @@ dtApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $l
 			templateUrl: 'app/home/home-partial.html',
 			controller: 'dtController-Home'
 		})
-		.when('/chartbuilder', {
+		.when('/canva/', {
+			templateUrl: 'app/canva/canva-partial.html',
+			controller: 'dtController-Canva'
+		})
+		.when('/chartbuilder/', {
 			templateUrl: 'app/chartbuilder/chartbuilder-partial.html',
 			controller: 'dtController-Chartbuilder'
 		})
-		.when('/fusiontables', {
+		.when('/fusiontables/', {
 			templateUrl: 'app/fusiontables/fusiontables-partial.html',
 			controller: 'dtController-FusionTables'
 		})
-		.when('/mapsengine', {
+		.when('/knowledgequiz/', {
+			templateUrl: 'app/knowledgequiz/knowledgequiz-partial.html',
+			controller: 'dtController-KnowledgeQuiz'
+		})
+		.when('/mapsengine/', {
 			templateUrl: 'app/mapsengine/mapsengine-partial.html',
 			controller: 'dtController-MapsEngine'
 		})
-		.when('/thinglink', {
+		.when('/personalityquiz/', {
+			templateUrl: 'app/personalityquiz/personalityquiz-partial.html',
+			controller: 'dtController-PersonalityQuiz'
+		})
+		.when('/thinglink/', {
 			templateUrl: 'app/thinglink/thinglink-partial.html',
 			controller: 'dtController-Thinglink'
 		})
-		.when('/timelinejs', {
+		.when('/timelinejs/', {
 			templateUrl: 'app/timelinejs/timelinejs-partial.html',
 			controller: 'dtController-TimelineJS'
 		})

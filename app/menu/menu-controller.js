@@ -2,6 +2,11 @@ dtApp.controller('dtController-Menu', ['$scope', function($scope) {
 
 	$scope.tools = [
 		{
+			url: 'canva',
+			name: 'Canva',
+			icon: 'img/icons/canva.png'
+		},
+		{
 			url: 'chartbuilder',
 			name: 'Chartbuilder',
 			icon: 'img/icons/chartbuilder.jpg'
@@ -12,9 +17,19 @@ dtApp.controller('dtController-Menu', ['$scope', function($scope) {
 			icon: 'img/icons/fusiontables.png'
 		},
 		{
+			url: 'knowledgequiz',
+			name: 'CMGO Games: Knowledge Quiz',
+			icon: 'img/icons/cmgo_games.png'
+		},
+		{
 			url: 'mapsengine',
 			name: 'Google Maps Engine',
 			icon: 'img/icons/mapsengine.png'
+		},
+		{
+			url: 'personalityquiz',
+			name: 'CMGO Games: Personality Quiz',
+			icon: 'img/icons/cmgo_games.png'
 		},
 		{
 			url: 'thinglink',
